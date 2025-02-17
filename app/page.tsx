@@ -12,6 +12,7 @@ export default function Home() {
           height={38}
           priority
         />
+        <h1>The ENV VALUE IS::: {process.env.NEXT_PUBLIC_APP_NAME}</h1>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
@@ -73,7 +74,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="./window.svg"
             alt="Window icon"
             width={16}
             height={16}
